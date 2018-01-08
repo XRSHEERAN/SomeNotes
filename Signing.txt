@@ -1,0 +1,1 @@
+Stp1: import to the same browser and export as a pfx certificate, protected by password.
