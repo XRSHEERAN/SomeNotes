@@ -14,3 +14,8 @@ public class listeners{
   //do things here, every class can have unique response and will be execute when event is raised
   }
 }
+public Main(){
+  publisher exp=new publisher();
+  listener lsn=new Listener();
+  publisher.EventName+=lsn.response; //register the respons in instance
+}
