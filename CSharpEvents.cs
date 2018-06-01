@@ -1,11 +1,10 @@
 //Publisher class components
-public delegate EventHandler(); //could use the default system one or override custometically with inherited eventargs
 public class publisher{
   
-  public event EventHandler EventName; //define the event
-  public void Raiser(){
+  public event EventHandler EventName; //define the event if no custom data
+  public void Raiser(EventArg e){
     if(EventHandler!=null){
-      EventHandler(); //raise the event
+      EventHandler(this, e); //raise the event
     }
   }
 }
