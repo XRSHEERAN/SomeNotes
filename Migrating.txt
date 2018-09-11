@@ -1,1 +1,2 @@
-While there are some well-written articles that illustrate how to migrate MDI projects to WPF, these articles tend to be less effective in describing the details. 
+- While there are some well-written articles that illustrate how to migrate MDI projects to WPF, these articles tend to be less effective in describing the details. 
+- In WPF, Avoid previous property change events such as checked changed. Use Property of inotification instead. This is better supported by MVVM and more concise.
